@@ -593,6 +593,9 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
+.downloadbtn{
+  color: #000;
+}
 .btn{
   
   display: inline-block;
@@ -604,14 +607,13 @@ footer span a:hover {
   padding: 12px 12px 12px 12px;
   border: 0;
   color: #fff;
-  background: #ff5000;
+  background: red;
   line-height: 1.15;
   font-size: 16px;
   :hover {
       transition: all .1s ease;
-      box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+      transform: scale(1.05);
   }
-
 }
 
 /* responsive media query start */
